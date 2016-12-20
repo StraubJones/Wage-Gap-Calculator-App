@@ -1,0 +1,81 @@
+.main {
+  color: red;
+  float: right;
+  width: 69%;
+  display: inline-block;
+}
+aside.sidebar{
+  float: left;
+  height: 100vh;
+  width: 30%;
+  display: inline-block;
+}
+
+fieldset{
+  max-width: 100%;
+}
+select{
+  text-overflow: ellipsis;
+  width: 90%;
+}
+
+.axis path, .axis line
+{
+    fill: none;
+    stroke: #777;
+    shape-rendering: crispEdges;
+}
+
+.axis text
+{
+    font-family: 'Arial';
+    font-size: 18px;
+}
+
+
+.bar {
+  color: black;
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 80px;
+  font-family: 'Arial';
+  text-align: center;
+  border-top: solid gray 2px;
+  padding-top: 30px;
+}
+
+.card-padding{
+  padding: 1rem;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+.rect:hover {
+  fill:orange;
+}

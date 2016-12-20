@@ -1,0 +1,32 @@
+{
+  "name": "wage-gap-calculator",
+  "version": "2.0.0",
+  "description": "Creates graphs to show wage disparities among various groups",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server/index.js --ignore client/"
+  },
+  "author": "Christian Straubhaar-Jones (begun as a project together with Brett Nelson, Zach Raymer, and Calvin Kniffin)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "d3": "^3.5.17",
+    "express": "^4.14.0",
+    "mocha": "^3.1.2",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.4",
+    "request": "^2.75.0",
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/StraubJones/Wage-Gap-Calculator.git"
+  },
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "nodemon": "^1.11.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
+}
