@@ -4,13 +4,18 @@ var Graph = require('./models/graph-schema');
 console.log('in init');
 // Initialize the database with static data for basic graphs
 
-Graph.save({
+var Alabama = new Graph({
   location: 'Alabama',
   income: 34804,
   gender: 'Male'
 });
 
-var init = function () {
+Alabama.save(function (err) {
+  if(err) return console.error(err);
+  console.log('Alabama OK!');
+});
+
+/*var init = function () {
   // console.log('db:',db)
   Graph.insert({
     location: 'Alabama',
@@ -819,4 +824,5 @@ var init = function () {
   })
   console.log('Done init');
 }
-module.exports = init;
+*/
+// module.exports = init;

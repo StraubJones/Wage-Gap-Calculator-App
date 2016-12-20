@@ -41,7 +41,7 @@ app.use(express.static('client'));
 //
 // var Graph = mongoose.model('Graph', graphSchema, 'Graph');
 
-init();
+// init();
 
 
 // pretty sure express.static handles this anyway
