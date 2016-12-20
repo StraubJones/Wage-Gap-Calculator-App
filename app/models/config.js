@@ -12,7 +12,7 @@ db.once('open', function () {
   console.log('Mongodb connection open');
 });
 
- 
+
 // var graphSchema = mongoose.Schema({
 //   //location will be a state -- optional
 //   location: String,
