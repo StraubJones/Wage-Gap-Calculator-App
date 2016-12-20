@@ -8,6 +8,7 @@ A tool for visualizing data on income disparity between various groups
 - Navigate to the repo root in the terminal
 - Run `$npm install`
 - Run `$mongod`
+- Open a new terminal window
 - Run `$npm start`
 - Navigate in your browser to http://localhost:4040 (or the number specified by your PORT environment variable)
 
@@ -55,7 +56,7 @@ In that vein, some **future features** we were hoping to add but have not yet ha
 
 ### Team
 
-  1. Original Team:
+  1. Original Team (for original see: https://github.com/MKS47GreenfieldAndLegacy/Wage-Gap-Calculator)
     - Product Owner (as Agile role): J. Christian Straubhaar-Jones
     - Scrum Master: Calvin Kniffin
     - Team Members:
